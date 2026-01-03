@@ -1,0 +1,7 @@
+file = open('data/data.txt', 'a')
+data = input("Hobby")
+file.write(data)
+file = open('data/data.txt', 'a')
+file.write("Hello World\n\n")
+file.write("!!!")
+file.close()
